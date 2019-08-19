@@ -6,8 +6,9 @@
   height: 4rem;
 }
 .join {
-  position: absolute;
+  position: inherit;
   bottom: 1rem;
+  margin: 20px 20px 0 0;
 }
 .rsvp {
   position: absolute;
@@ -139,7 +140,7 @@
     min-height: 50px;
   }
   .join {
-    position: relative;
+    position: inherit;
     margin-top: 2rem;
   }
 }

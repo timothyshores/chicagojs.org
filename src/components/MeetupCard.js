@@ -89,6 +89,9 @@ class MeetupCard extends React.Component {
             <a href={`https://www.meetup.com/${urlname}`} target="_blank" className="btn btn-outline-primary join">
               Join Group
             </a>
+            <a href={`https://www.meetup.com/${urlname}`} target="_blank" className="btn btn-outline-primary join">
+              Be a speaker
+            </a>
           </div>
         </div>
       </div>

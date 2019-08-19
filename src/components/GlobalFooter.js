@@ -25,10 +25,6 @@ const FOOTER_LINKS = [
     image: svgTwitter
   },
   {
-    title: 'Slack',
-    image: svgSlack
-  },
-  {
     title: 'LinkedIn',
     url: 'https://linkedin.com/groups/12147253',
     image: svgLinkedIn
@@ -43,7 +39,10 @@ const FOOTER_LINKS = [
 export default () => (
   <footer className="GlobalFooter">
     <div className="container text-center">
-      <span className="list-inline-item mb-2">ChicagoJS {new Date().getFullYear()}</span>
+      <span className="list-inline-item mb-2">
+        ChicagoJS
+        {new Date().getFullYear()}
+      </span>
       <ul className="list-unstyled list-inline mp-0">
         {FOOTER_LINKS.map(link => (
           <li className="list-inline-item" key={link.title}>
